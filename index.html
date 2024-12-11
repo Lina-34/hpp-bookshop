@@ -12,18 +12,19 @@
 <body class="font-bold">
     <header class="text-black-900 body-font font-bold">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <div class="ml-3 h-15 w-14">
                 <img src="logo.png">
             </div> 
           </a> 
-          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-end text-base justify-center">
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-end text-base justify-center mb-4">
             <a href="" class="mr-5 hover:text-orange-600">Home</a>
             <a href="About.html" class="mr-5 hover:text-orange-600">About</a>
             <a class="mr-5 hover:text-orange-600">Blog</a>
             <a href="FAQ.html" class="mr-5 hover:text-orange-600">FAQ</a>
           </nav>
-          <div class="flex-none">
+          <div class="flex-none ml-12">
             <div class="dropdown dropdown-end">
               <div class="tooltip tooltip-bottom" data-tip="Buy Book">
               <div tabindex="0" role="button" class="btn btn-ghost btn-circle bg-orange-500 hover:bg-orange-600">
@@ -63,7 +64,7 @@
       
     <section class="w-5/6 mx-auto">
       <h1 class="text-6xl font-bold py-6 text-center">Books</h1>
-      <div class="grid grid-cols-3 gap-5">
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       
       <div class="card bg-base-100 rounded shadow-xl">
           <figure>
@@ -185,8 +186,8 @@
       
       </div>
       
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
       
-      <div class="grid grid-cols-3 gap-5 mt-10">
       
           <div class="card bg-base-100 rounded shadow-xl">
               <figure>
@@ -308,8 +309,9 @@
               </div>
             </div>
           </div>
-      
-          <div class="grid grid-cols-3 gap-5 mt-10">
+
+          <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
+          
       
             <div class="card bg-base-100 rounded shadow-xl">
                 <figure>
@@ -429,12 +431,10 @@
               </div>
             
             </div>
-            
-                
-        
             </section>
         
         <footer class="footer bg-black text-white text-base-content p-10 mt-10">
+          <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-16">
           <nav>
             <img src="logo.png">
           </nav>
@@ -483,6 +483,7 @@
             <a class="link link-hover hover:bg-orange-600">FAQ</a>
             
           </nav>
+          </div>
         </footer>
         
 
